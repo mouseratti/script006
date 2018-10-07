@@ -1,5 +1,5 @@
 import pytest
-from labs.mkoshel import summary
+from script006.labs.mkoshel import module_summary
 
 fixtures = [
     (0, 0),
@@ -9,13 +9,12 @@ fixtures = [
     (4,10)
 ]
 
-
 @pytest.mark.parametrize("input, expected", fixtures)
 def test_summary(input, expected):
-    assert summary(input) == expected
+    assert module_summary(input) == expected
 
 
 def test_summary_raises():
     with pytest.raises(ValueError):
-        summary(-1)
+        module_summary(-1)
 
