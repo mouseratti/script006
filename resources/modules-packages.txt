@@ -1,0 +1,4 @@
+1) create your own package
+2) build it with setuptools, make binary package
+3) create your own environment, install your package inside it
+4) check
