@@ -1,3 +1,4 @@
+# mypy
 
 
 def summary(n: int=0)-> int:
