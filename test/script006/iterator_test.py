@@ -1,6 +1,7 @@
 import pytest
 from script006.examples.iterators import MyIterable
-# from types import Iterator
+
+
 @pytest.fixture
 def myiterable():
     return MyIterable()
