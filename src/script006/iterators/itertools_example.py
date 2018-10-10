@@ -11,9 +11,6 @@ def chain():
 def count():
     yield from itertools.count(20, 5)
 
-def zip():
-    itertools.zip()
-
 
 if __name__ == '__main__':
     g1 = chain()
