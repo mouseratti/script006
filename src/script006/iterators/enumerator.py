@@ -8,4 +8,3 @@ from typing import (
 )
 def my_enumerate(i: Iterable, start: int = 0) -> Generator:
     # type your code here
-    pass
