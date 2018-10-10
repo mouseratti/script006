@@ -9,6 +9,7 @@ fixtures = [
     (4,10)
 ]
 
+
 @pytest.mark.parametrize("input, expected", fixtures)
 def test_summary(input, expected):
     assert summary(input) == expected
