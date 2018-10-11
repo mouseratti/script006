@@ -20,3 +20,4 @@ def func_fib(n: int) -> typing.List:
     return result
     # place your code here
     pass
+    return 1
