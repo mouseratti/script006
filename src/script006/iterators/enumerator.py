@@ -7,4 +7,5 @@ from typing import (
     Generator
 )
 def my_enumerate(i: Iterable, start: int = 0) -> Generator:
+    pass
     # type your code here
