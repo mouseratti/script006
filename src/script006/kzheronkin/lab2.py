@@ -14,7 +14,7 @@ def get_str_from_list(input_list):
 def flatten_nested_list_in_list(input_list):
     res_list = list()
     for el in input_list:
-        if isinstance(input_list, types.ListTypes):
+        if isinstance(input_list, list):
             res_list.extend(input_list)
         else:
             res_list += [el]

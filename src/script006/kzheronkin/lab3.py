@@ -1,3 +1,4 @@
+import typing
 import subprocess, re
 
 
@@ -12,7 +13,7 @@ def ping_command():
     ))
 
 
-def get_russion_cell_phones(input_list):
+def get_russion_cell_phones(input_list: typing.List) -> typing.List:
     rus_cell_phone_template = r'[(\+7)9].*'
     for number in input_list:
         res = re.match(rus_cell_phone_template, number)
